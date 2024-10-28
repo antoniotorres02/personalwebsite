@@ -8,14 +8,14 @@ const Education: React.FC = () => {
       school: "Universidad de Las Palmas de Gran Canaria",
       logo: "/assets/ulpgc.svg",
       date: "October 2020 - July 2024",
-      grade: "9.0/10"
+      grade: "8,321/10"
     },
     {
       degree: "Computer Engineering (SICUE Exchange)",
       school: "Universidad de Granada",
       logo: "/assets/ugr.svg",
       date: "September 2023 - June 2024",
-      grade: "8.5/10"
+      grade: "9,138/10"
     }
   ];
 
