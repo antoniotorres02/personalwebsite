@@ -7,7 +7,7 @@ const Header: React.FC = () => {
   return (
     <header className="header">
       <div className="profile">
-        <img src="/assets/Torres Bordón, Antonio Javier_2.png" alt="Antonio Torres" className="profile-image" />
+        <img src="/assets/profile.webp" alt="Antonio Torres" className="profile-image" />
         <h1>Antonio Javier Torres Bordón</h1>
         <p className="title">Software Engineer</p>
         <div className="contact-info">

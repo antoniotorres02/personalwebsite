@@ -125,13 +125,10 @@ body {
     border-radius: 8px;
     background-color: var(--background-color);
     transition: transform var(--transition-speed), box-shadow var(--transition-speed);
-    cursor: pointer;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.10);
 }
 
-.skill-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-}
+
 
 .skill-card h3 {
     color: var(--secondary-color);
