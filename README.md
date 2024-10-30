@@ -30,9 +30,9 @@ Welcome to my personal website's repository! This project serves as my digital s
 
 ## 📞 Contact
 
-Antonio Torres - [Your Email]
-Website: [https://antoniotorres.dev](https://antoniotorres.dev)
+Website: [https://antoniotorres.dev](https://antoniotorres.dev)  
 LinkedIn: [https://www.linkedin.com/in/antoniotorres02/](https://www.linkedin.com/in/antoniotorres02/)
+
 
 ## 🙏 Acknowledgments
 
