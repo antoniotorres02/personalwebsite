@@ -32,8 +32,7 @@ Welcome to my personal website's repository! This project serves as my digital s
 
 Antonio Torres - [Your Email]
 Website: [https://antoniotorres.dev](https://antoniotorres.dev)
-Twitter: [@YourTwitterHandle](https://twitter.com/YourTwitterHandle)
-LinkedIn: [Your LinkedIn Profile](https://linkedin.com/in/YourProfile)
+LinkedIn: [https://www.linkedin.com/in/antoniotorres02/](https://www.linkedin.com/in/antoniotorres02/)
 
 ## 🙏 Acknowledgments
 
