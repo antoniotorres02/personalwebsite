@@ -1,5 +1,6 @@
 import React from 'react';
 import { ProjectEntry } from './ProjectEntry';
+import './Projects.css';
 
 export interface ProjectEntryInterface {
   title: string;

@@ -1,5 +1,6 @@
 import React from 'react';
 import EducationEntry from './EducationEntry';
+import './Education.css';
 
 const Education: React.FC = () => {
   const educationData = [
