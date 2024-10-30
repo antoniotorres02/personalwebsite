@@ -1,20 +1,25 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import './Header.css';
 
 const Header: React.FC = () => {
   return (
     <header className="header">
-      <div className="profile">
-        <img src="/assets/profile.webp" alt="Antonio Torres" className="profile-image" />
-        <h1>Antonio Javier Torres Bordón</h1>
+      <div className="content">
+        <h1>Antonio Torres</h1>
         <p className="title">Software Engineer</p>
         <div className="contact-info">
-          <p><a href="mailto:contact@antoniotorres.dev"><FontAwesomeIcon icon={faEnvelope} /> contact@antoniotorres.dev</a></p>
-          <p><a href="tel:+34662956636"><FontAwesomeIcon icon={faPhone} /> +34 662 95 66 36</a></p>
-          <p><a href="https://github.com/antoniotorres02" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /> github.com/antoniotorres02</a></p>
-          <p><a href="https://www.linkedin.com/in/antoniotorres02" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} /> linkedin.com/in/antoniotorres02</a></p>
+          <a href="mailto:contact@antoniotorres.dev" aria-label="Email">
+            <FontAwesomeIcon icon={faEnvelope} />
+          </a>
+          <a href="https://github.com/antoniotorres02" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <FontAwesomeIcon icon={faGithub} />
+          </a>
+          <a href="https://www.linkedin.com/in/antoniotorres02" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <FontAwesomeIcon icon={faLinkedin} />
+          </a>
         </div>
       </div>
     </header>

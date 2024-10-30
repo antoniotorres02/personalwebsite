@@ -1,5 +1,6 @@
 import React from 'react';
 import SkillCard from './SkillCard';
+import './Skills.css';
 
 const Skills: React.FC = () => {
   const skillsData = [

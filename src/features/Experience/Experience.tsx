@@ -1,5 +1,6 @@
 import React from 'react';
 import ExperienceEntry from './ExperienceEntry';
+import './Experience.css';
 
 const Experience: React.FC = () => {
   const experiences = [
