@@ -11,11 +11,12 @@ export default function MainPage() {
     
     <div className="container">
       <Header />
-      <About />
+      {/*<About />
       <Skills />
       <Experience />
       <Projects />
       <Education />
+      */}
       {/*
       TODO: Bind the Contact component to my mail server and send the form data to my email
       <Contact />
