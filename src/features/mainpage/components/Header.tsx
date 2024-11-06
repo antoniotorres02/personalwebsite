@@ -7,6 +7,11 @@ import './Header.css';
 const Header: React.FC = () => {
   return (
     <header className="header">
+      <img
+        src="/assets/profile.png"
+        alt="Antonio Torres"
+        className="profile-image"
+      />
       <div className="content">
         <h1>Antonio Torres</h1>
         <p className="title">Software Engineer</p>

@@ -21,10 +21,7 @@ body {
     background-color: var(--background-color);
 }
   
-.container {
-    margin: 0 auto;
-    padding: 2rem;
-}
+
 
 /* Section Styles */
 .section {
@@ -68,9 +65,3 @@ body {
     animation: fadeIn 0.5s ease-out;
 }
   
-/* Responsive Design */
-@media (max-width: 768px) {
-    .container {
-        padding: 1rem;
-    }
-}
