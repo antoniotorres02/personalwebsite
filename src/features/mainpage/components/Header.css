@@ -47,12 +47,11 @@
 .contact-info a {
     color: var(--text-color);
     font-size: 1.5rem;
-    transition: color var(--transition-speed), transform var(--transition-speed);
+    transition: color var(--transition-speed) ease;
 }
   
 .contact-info a:hover {
     color: var(--accent-color);
-    transform: translateY(-3px);
 }
   
 /* Background Animation */

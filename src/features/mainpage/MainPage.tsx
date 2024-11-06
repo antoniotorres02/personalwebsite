@@ -5,12 +5,14 @@ import Skills from './components/skills/Skills'
 import Experience from './components/experience/Experience'
 import Projects from './components/projects/Projects'
 import Education from './components/education/Education'
+import LinkToRepository from './components/LinkToRepository'
 
 export default function MainPage() {
   return (
     
     <div className="container">
       <Header />
+      <LinkToRepository/>
       {/*<About />
       <Skills />
       <Experience />
